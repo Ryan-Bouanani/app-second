@@ -14,7 +14,7 @@ const CurrentWeather = ({ weatherData }) => {
           }}
           style={styles.weatherIcon}
         />
-        <Text style={styles.temperature}>{Math.round(currentWeather.main.temp)}°C</Text>
+        <Text style={styles.temperature}>{Math.round(currentWeather.main.temp)}°C </Text>
         <Text style={styles.description}>{currentWeather.weather[0].description}</Text>
       </View>
     </View>
